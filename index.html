@@ -9,17 +9,26 @@
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   </head>
   <body>
-  <section id="app"class="section">
-    <div class="container">
-      <h1 class="title">
-        {{company}}
-      </h1>
-      <p class="subtitle">
-        {{ realeaseDate}} {{description}}
-      </p>
-      <p>
-        Kodoti status: {{published}}
-      </p>
+    <section id="app"class="columns">
+    <div class="column">
+      <form @submit.prevent ="addCourse">
+        <div class="field">
+          <label>Curso</label>
+          <input required v-model="NewCourses.name" type="text" class="input">
+        </div>
+        <div class="field">
+          <label>Precio</label>
+          <input required v-model="NewCourses.price" type="text" class="input">
+        </div>
+        <div class="field">
+          <button type="submit" class="button is-primary">Agregar</button>
+        </div>
+      </form>
+    </div>
+    
+    
+    <div class="column">
+      <button @click="DoSomething" class="button is-primary">Haz CLick</button>
       <table class="table">
         <thead>
           <tr>
@@ -32,10 +41,14 @@
           <tr v-for="item in cursos">
             <td>{{item.name}}</td>
             <td>US$ {{item.price}}</td>
-            <td>{{item.status ? 'Publicado':'Sin Publicar'}}</td>
+            <td>
+              <span v-if="item.status" class="tag is-primary">Publicado</span>
+              <span v-else class="tag is-danger">Sin publicar</span>
+            </td>
           </tr>
         </tbody>
       </table>
+      
     </div>
   </section>
   <script>
@@ -52,7 +65,26 @@
           {name:'Python',price:15,status:true},
           {name:'Node.js',price:14,status:true}
 
-        ]  
+        ],
+        NewCourses:{
+        name:null,
+        price:null
+      }
+      },
+      methods:{
+        DoSomething (){
+          alert(this.company +'Es la mejor compania del mundo');
+        }
+      },
+
+      addCourse(){
+        this.cursos.push({
+          name: this.NewCourses.name,
+          price:this.NewCourses.price,
+          published: false
+        });
+        this.NewCourses.name= null;
+        this.NewCourses.price= null;
       }
     })
     console.log(app)
