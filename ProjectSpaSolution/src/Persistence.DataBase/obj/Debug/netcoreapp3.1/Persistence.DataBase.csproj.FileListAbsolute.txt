@@ -1,0 +1,5 @@
+C:\Users\Miguel Machuca\Documents\JASM\ASP.NET-CORE-3-VUEJS\ProjectSpaSolution\src\Persistence.DataBase\bin\Debug\netcoreapp3.1\Persistence.DataBase.deps.json
+C:\Users\Miguel Machuca\Documents\JASM\ASP.NET-CORE-3-VUEJS\ProjectSpaSolution\src\Persistence.DataBase\bin\Debug\netcoreapp3.1\Persistence.DataBase.dll
+C:\Users\Miguel Machuca\Documents\JASM\ASP.NET-CORE-3-VUEJS\ProjectSpaSolution\src\Persistence.DataBase\obj\Debug\netcoreapp3.1\Persistence.DataBase.csprojAssemblyReference.cache
+C:\Users\Miguel Machuca\Documents\JASM\ASP.NET-CORE-3-VUEJS\ProjectSpaSolution\src\Persistence.DataBase\obj\Debug\netcoreapp3.1\Persistence.DataBase.AssemblyInfoInputs.cache
+C:\Users\Miguel Machuca\Documents\JASM\ASP.NET-CORE-3-VUEJS\ProjectSpaSolution\src\Persistence.DataBase\obj\Debug\netcoreapp3.1\Persistence.DataBase.AssemblyInfo.cs
