@@ -7,3 +7,10 @@ C:\Users\Miguel Machuca\Documents\JASM\ASP.NET-CORE-3-VUEJS\ProjectSpaSolution\s
 C:\Users\Miguel Machuca\Documents\JASM\ASP.NET-CORE-3-VUEJS\ProjectSpaSolution\src\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
 C:\Users\Miguel Machuca\Documents\JASM\ASP.NET-CORE-3-VUEJS\ProjectSpaSolution\src\Service\obj\Debug\netcoreapp3.1\Service.dll
 C:\Users\Miguel Machuca\Documents\JASM\ASP.NET-CORE-3-VUEJS\ProjectSpaSolution\src\Service\obj\Debug\netcoreapp3.1\Service.pdb
+C:\Users\Miguel Machuca\Documents\JASM\ASP.NET-CORE-3-VUEJS\ProjectSpaSolution\src\Service\bin\Debug\netcoreapp3.1\Model.dll
+C:\Users\Miguel Machuca\Documents\JASM\ASP.NET-CORE-3-VUEJS\ProjectSpaSolution\src\Service\bin\Debug\netcoreapp3.1\Model.Dtos.dll
+C:\Users\Miguel Machuca\Documents\JASM\ASP.NET-CORE-3-VUEJS\ProjectSpaSolution\src\Service\bin\Debug\netcoreapp3.1\Persistence.DataBase.dll
+C:\Users\Miguel Machuca\Documents\JASM\ASP.NET-CORE-3-VUEJS\ProjectSpaSolution\src\Service\bin\Debug\netcoreapp3.1\Model.Dtos.pdb
+C:\Users\Miguel Machuca\Documents\JASM\ASP.NET-CORE-3-VUEJS\ProjectSpaSolution\src\Service\bin\Debug\netcoreapp3.1\Persistence.DataBase.pdb
+C:\Users\Miguel Machuca\Documents\JASM\ASP.NET-CORE-3-VUEJS\ProjectSpaSolution\src\Service\bin\Debug\netcoreapp3.1\Model.pdb
+C:\Users\Miguel Machuca\Documents\JASM\ASP.NET-CORE-3-VUEJS\ProjectSpaSolution\src\Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete

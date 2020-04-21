@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Model.Dtos\Model.Dtos.csproj" />
+    <ProjectReference Include="..\Persistence.DataBase\Persistence.DataBase.csproj" />
+  </ItemGroup>
+
 </Project>
